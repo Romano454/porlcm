@@ -184,7 +184,7 @@ $(function () {
     e.preventDefault();
 
     $.ajax({
-      url: 'https://formspree.io/leonelcuentas.sis@gmail.com',
+      url: 'https://formspree.io/f/xyyazanz',
       method: 'POST',
       data: { message: $('form').serialize() },
       dataType: 'json'
