@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+
+  <!-- HOSTED -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
+    rel="stylesheet" type="text/css" />
+  <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+  <!-- LOCAL -->
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/contain.css" />
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+
+  <!-- HOSTED -->
+  <script src="js/prefixfree.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.mixitup.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+
+  <!-- LOCAL -->
+  <script src="scripts/pt.min.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/modal.js"></script>
+</head>
+
+<body>
+  <div class="overflow-wrap">
+    <!-- HOME -->
+    <div class="modal-wrap flex">
+      <div class="mask"></div>
+      <div class="modal" id="modal">
+        <div class="carousel-wrap">
+          <div class="window">
+            <div id="carousel">
+              <div class="slide"></div>
+              <div class="slide"></div>
+              <div class="slide"></div>
+            </div>
+            <i class="mdi mdi-chevron-left" id="prev"></i>
+            <i class="mdi mdi-chevron-right" id="next"></i>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="title"></div>
+          <div class="tag"></div>
+          <div class="detail"></div>
+          <a href="#" target="_blank">
+            <div class="button">
+              <i class="mdi mdi-open-in-new"></i>VIEW SITE
+            </div>
+          </a>
+        </div>
+        <i class="close mdi mdi-close"></i>
+      </div>
+    </div>
+
+    <section id="home" class="flex height-fix">
+      <div id="pt" class="canvas"></div>
+      <div class="flex">
+        <div class="text">
+          Hola, soy <span class="highlight">Leonel Cuentas</span>.
+          <br />
+          Soy un desarrollador web full-stack y Telecom.
+        </div>
+
+        <div class="button page-link" dest="about">
+          Ver mi trabajo <i class="mdi mdi-arrow-right"></i>
+        </div>
+
+        <nav class="flex">
+          <div class="link-wrap">
+            <div class="active page-link" dest="home">Leonel</div>
+            <div class="page-link" dest="about">Acerca de</div>
+            <div class="page-link" dest="portfolio">portfolio</div>
+            <div class="page-link" dest="blog">currículum vitae</div>
+            <div class="page-link" dest="contact">contacto</div>
+          </div>
+          <i class="mdi mdi-menu"></i>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container flex">
+        <div class="header waypoint" data-animation="slide-in-left">
+          Acerca de
+        </div>
+
+        <div class="container">
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img
+                  src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
+                <h3>Diseño</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>El entorno mediante el cual puede expresar visualmente mis ideas para un determinado proyecto.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img
+                  src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
+                <h3>Codigo</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>Desarrollo por la satisfacción que obtengo al superar los desafíos. Estoy motivado por la oportunidad
+                  que brinda el
+                  software para impactar positivamente la vida de un individuo y el mundo en su conjunto.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img
+                  src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+                <h3>Lanzamiento</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>Los sitios web no tienen que ser estáticos, me encanta hacer que las páginas cobren vida.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-wrapper flex row-gt-sm">
+          <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+            <img src="img/me.png" class="me" />
+            <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+            <div class="label bold">¿Quién es este tipo?</div>
+            <div>
+              Soy un desarrollador web full-stack.
+
+              Tengo una gran pasión por los efectos de interfaz de usuario, las animaciones y la creación de
+              experiencias de usuario
+              intuitivas y dinámicas.
+              <br />
+              <span class="page-link highlight" dest="contact">Hagamos algo especial.</span>
+            </div>
+          </div>
+
+          <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
+            <div class="bar flex">
+              <div class="bar fill" style="width:80%">
+                <div class="tag bold flex">CSS</div>
+              </div>
+              <span>80%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:80%">
+                <div class="tag bold flex">HTML</div>
+              </div>
+              <span>80%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:70%">
+                <div class="tag bold flex">React</div>
+              </div>
+              <span>70%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:80%">
+                <div class="tag bold flex">JavaScript</div>
+              </div>
+              <span>80%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:50%">
+                <div class="tag bold flex">Angular</div>
+              </div>
+              <span>50%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:60%">
+                <div class="tag bold flex">Node.js</div>
+              </div>
+              <span>60%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:70%">
+                <div class="tag bold flex">UI Design</div>
+              </div>
+              <span>70%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:70%">
+                <div class="tag bold flex">Photoshop</div>
+              </div>
+              <span>70%</span>
+            </div>
+            <div class="bar flex">
+              <div class="bar fill" style="width:80%">
+                <div class="tag bold flex">Wordpress</div>
+              </div>
+              <span>80%</span>
+            </div>
+            <div class="bar flex">
+              <div class="bar fill" style="width:90%">
+                <div class="tag bold flex">Telecom</div>
+              </div>
+              <span>90%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="flex" id="portfolio">
+      <div class="header waypoint" data-animation="slide-in-right">
+        PROYECTOS
+      </div>
+      <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+      <div class="filter-wrap waypoint" data-animation="fade-in">
+        <div class="flex row">
+          <div class="filter" data-filter="all"></div>
+        </div>
+
+        <div id="gallery" class="container flex row wrap waypoint">
+          <div class="mix react" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Vanzel Technologies</div>
+                <span class="highlight">React JS / Css</span>
+              </div>
+              <div class="button" style="text-align: center" id="ordering"> VER</div>
+            </div>
+          </div>
+
+          <div class="mix react" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Ethical Hacking</div>
+                <span class="highlight">Html / Bootstrap</span>
+              </div>
+              <div class="button" id="discover">VER</div>
+            </div>
+          </div>
+
+          <div class="mix rails" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Tarjeta Digital</div>
+                <span class="highlight">Html / css /js</span>
+              </div>
+              <div class="button" id="walker">VER</div>
+            </div>
+          </div>
+
+          <div class="mix js" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">MY STAND</div>
+                <span class="highlight">JS / Node.js on Sails</span>
+              </div>
+              <div class="button" id="mystand">VER</div>
+            </div>
+          </div>
+
+          <div class="mix js" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Estilismo</div>
+                <span class="highlight">JavaScript / Css / php</span>
+              </div>
+              <div class="button" id="never"> VER</div>
+            </div>
+          </div>
+
+
+          <div class="mix js" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">The Mall</div>
+                <span class="highlight">React.js / Node</span>
+              </div>
+              <div class="button" id="themall"> VER</div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog">
+      <div class="container flex">
+        <div class="header waypoint" data-animation="slide-in-left">CURRICULUM VITAE</div>
+        <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+        <div id="root"></div>
+        <!-- partial -->
+        <script type="module" src="./scripts/button.js"></script>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1"
+        xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+        <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+      </svg>
+      <div class="container flex">
+        <div class="header waypoint" data-animation="slide-in-left">
+          CONTACTO
+        </div>
+        <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+        <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">
+          ¿Tiene alguna pregunta o quiere trabajar juntos?
+        </div>
+        <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
+          <input placeholder="Nombre" type="text" name="name" required />
+          <input placeholder="Enter Email" type="email" name="email" required />
+          <textarea placeholder="Escriba Mensaje" type="text" name="message"></textarea>
+          <div id="success">
+            <div>
+              Su mensaje fue enviado exitosamente. ¡Gracias!<span id="close" class="mdi mdi-close"></span>
+            </div>
+          </div>
+          <input class="button" type="submit" id="submit" value="ENVIAR" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+      <div class="icon-wrap flex row">
+        <a href="www.linkedin.com/in/leonel-cuentas">
+          <div class="flex icon" id="icon-2">
+            <i class="mdi mdi-linkedin"></i>
+          </div>
+        </a>
+        <a href="">
+          <div class="flex icon" id="icon-3">
+            <i class="mdi mdi-facebook"></i>
+          </div>
+        </a>
+        <a href="">
+          <div class="flex icon" id="icon-4">
+            <i class="mdi mdi-instagram"></i>
+          </div>
+        </a>
+        <a href="https://codepen.io/Romano454">
+          <div class="flex icon" id="icon-5">
+            <i class="mdi mdi-codepen"></i>
+          </div>
+        </a>
+      </div>
+      <div class="info-box">
+        <div class="footnote">
+          LEONEL CUENTAS <span class="highlight">&copy;2021</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="preload">
+    <img src="img/me.png" />
+    <img src="img/filler.html" />
+    <img src="img/thumb-1.png" />
+    <img src="img/thumb-2.jpg" />
+    <img src="img/thumb-3.jpg" />
+    <img src="img/thumb-4.jpg" />
+    <img src="img/thumb-5.jpg" />
+    <img src="img/thumb-6.jpg" />
+    <img src="img/blog-1.jpg" />
+    <img src="img/blog-2.jpg" />
+    <img src="img/blog-3.jpg" />
+    <img src="img/blog-4.jpg" />
+    <img src="img/slides/discover-0.jpg" />
+    <img src="img/slides/discover-1.jpg" />
+    <img src="img/slides/discover-2.jpg" />
+    <img src="img/slides/ordering-0.jpg" />
+    <img src="img/slides/ordering-1.png" />
+    <img src="img/slides/ordering-2.jpg" />
+    <img src="img/slides/newrelic-0.jpg" />
+    <img src="img/slides/newrelic-1.jpg" />
+    <img src="img/slides/newrelic-2.jpg" />
+    <img src="img/slides/mystand-0.jpg" />
+    <img src="img/slides/mystand-1.jpg" />
+    <img src="img/slides/mystand-2.jpg" />
+    <img src="img/slides/never-0.jpg" />
+    <img src="img/slides/never-1.jpg" />
+    <img src="img/slides/never-2.jpg" />
+    <img src="img/slides/powur-0.jpg" />
+    <img src="img/slides/powur-1.jpg" />
+    <img src="img/slides/powur-2.jpg" />
+    <img src="img/slides/roambi-0.jpg" />
+    <img src="img/slides/roambi-1.jpg" />
+    <img src="img/slides/roambi-2.jpg" />
+    <img src="img/slides/themall-0.jpg" />
+    <img src="img/slides/themall-1.jpg" />
+    <img src="img/slides/themall-2.jpg" />
+    <img src="img/slides/walker-0.jpg" />
+    <img src="img/slides/walker-1.jpg" />
+    <img src="img/slides/walker-2.jpg" />
+  </div>
+</body>
+
+<!-- Mirrored from findmatthew.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Jan 2023 21:10:09 GMT -->
+
+</html>
+
+<script src="scripts/canvas.js"></script>
