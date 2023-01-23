@@ -8,7 +8,7 @@ function App() {
             particleCount: 150,
             spread: 60
         });
-        window.location.href = 'https://www.example.com';
+        window.location.href = 'https://drive.google.com/file/d/1OnFNi_SMf53rtlx0o1LCtTewcY1Tvd5J/view?usp=share_link';
     }, []);
 
     return /*#__PURE__*/(
